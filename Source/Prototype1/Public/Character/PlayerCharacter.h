@@ -13,5 +13,6 @@ UCLASS()
 class PROTOTYPE1_API APlayerCharacter : public ACharacterBase
 {
 	GENERATED_BODY()
-	
+public:
+	APlayerCharacter();
 };
